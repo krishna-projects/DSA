@@ -21,7 +21,7 @@ public class RecursionDemo {
 		recursionDemo1(i - 1);
 		System.out.println(new Throwable().getStackTrace()[0].getLineNumber() + " -> " + i); // first 3 goes to stack
 																								// for
-																								// waitint then 2 then
+																								// waiting then 2 then
 																								// 1, so
 																								// prints 1 2 3
 	}
