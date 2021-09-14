@@ -12,9 +12,7 @@ public class GenerateSubset {
 			System.err.print(curr + " ");
 			return;
 		}
-
 		printSub(str, curr, index + 1);
-		System.out.println(str+"  "+curr+"  "+index);
 		printSub(str, curr + str.charAt(index), index + 1);
 	}
 
