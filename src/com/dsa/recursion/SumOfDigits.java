@@ -2,7 +2,7 @@ package com.dsa.recursion;
 
 public class SumOfDigits {
     public static void main(String[] args) {
-        int num = 43;
+        int num = 4322;
         System.out.println("sum of digits for num: " + num + " sum: " + sumOfDigits(num));
     }
 

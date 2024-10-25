@@ -1,4 +1,4 @@
-package com.dsa.algo;
+package com.dsa.algo.sorting;
 
 public class MergeSort {
     public static void main(String[] args) {
